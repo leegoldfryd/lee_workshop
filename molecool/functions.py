@@ -6,42 +6,34 @@ Handles the primary functions
 """
 
 
-def canvas(with_attribution=True):
-    """
-    Placeholder function to show example docstring (NumPy format)
-
-    Replace this function and doc string for your own project
-
-    Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from
-
-    Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution
-    """
-
-    quote = "The code is but a canvas to our imagination."
-    if with_attribution:
-        quote += "\n\t- Adapted from Henry David Thoreau"
-    return quote
-
-
-if __name__ == "__main__":
-    # Do something if this file is invoked on its own
-    print(canvas())
-
-import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 
 
 def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+    """
+    Calculate the distance between two points.
+
+    Parameters
+    __________
+    rA, rB : np.ndarray
+        The coordinated of each point.
+
+    Returns
+    _______
+    dist : float
+        the distance between the two points.
+
+    Examples
+    ________
+    >>> r1 = np.array([0 ,0 ,0])
+    >>> r2 = np.array([0, 0.1m 0])
+    >>> calculate_distance(r1,r2)
+    0.1
+    """
+
     d = rA - rB
     dist = np.linalg.norm(d)
     return dist
@@ -206,3 +198,31 @@ atom_colors = {
     "Br": "#F4A460",
     "S": "yellow",
 }
+
+
+def canvas(with_attribution=True):
+    """
+    Placeholder function to show example docstring (NumPy format)
+
+    Replace this function and doc string for your own project
+
+    Parameters
+    ----------
+    with_attribution : bool, Optional, default: True
+        Set whether or not to display who the quote is from
+
+    Returns
+    -------
+    quote : str
+        Compiled string including quote and optional attribution
+    """
+
+    quote = "The code is but a canvas to our imagination."
+    if with_attribution:
+        quote += "\n\t- Adapted from Henry David Thoreau"
+    return quote
+
+
+if __name__ == "__main__":
+    # Do something if this file is invoked on its own
+    print(canvas())
