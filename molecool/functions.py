@@ -29,7 +29,7 @@ def calculate_distance(rA, rB):
     Examples
     ________
     >>> r1 = np.array([0 ,0 ,0])
-    >>> r2 = np.array([0, 0.1m 0])
+    >>> r2 = np.array([0, 0.1, 0])
     >>> calculate_distance(r1,r2)
     0.1
     """
@@ -174,6 +174,10 @@ def bond_histogram(bond_list, save_location=None, dpi=300, graph_min=0, graph_ma
 
 
 def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
+
+    if min_bond < 0:
+        raise ValueError("The minimum bond length cannot be less than zero")
+
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
     bonds = {}
     num_atoms = len(coordinates)
