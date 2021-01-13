@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f1f94d0-40b0-4c04-9468-d3eff8d108c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devtools/conda-envs/test_env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/devtools/conda-envs/test_env.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devtools/scripts/create_conda_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/devtools/scripts/create_conda_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/tests/test_molecool.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/tests/test_molecool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versioneer.py" beforeDir="false" afterPath="$PROJECT_DIR$/versioneer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1myYxQyYl6UklEPw8ezhLm4Fyss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f1f94d0-40b0-4c04-9468-d3eff8d108c8" name="Default Changelist" comment="" />
+      <created>1610467544295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610467544295</updated>
+    </task>
+    <servers />
+  </component>
+</project>
