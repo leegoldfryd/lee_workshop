@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1f94d0-40b0-4c04-9468-d3eff8d108c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devtools/conda-envs/test_env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/devtools/conda-envs/test_env.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devtools/scripts/create_conda_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/devtools/scripts/create_conda_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/molecool/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/_version.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/molecool/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/molecool/tests/test_molecool.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecool/tests/test_molecool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versioneer.py" beforeDir="false" afterPath="$PROJECT_DIR$/versioneer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
