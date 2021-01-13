@@ -16,7 +16,7 @@ on:
 jobs:
   build:
     name: Build Documention
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         os: [macOS-latest, ubuntu-latest, windows-latest]
@@ -36,12 +36,12 @@ jobs:
     # More info on options: https://github.com/conda-incubator/setup-miniconda
     - uses: conda-incubator/setup-miniconda@v2
       with:
-        python-version: ${{ matrix.python-version }}
-        environment-file: devtools/conda-envs/test_env.yaml
+        python-version: 3.8
+        environment-file: docs/requirments.yaml
 
         channels: conda-forge,defaults
 
-        activate-environment: test
+        activate-environment: docs
         auto-update-conda: false
         auto-activate-base: false
         show-channel-urls: true
@@ -61,7 +61,9 @@ jobs:
       shell: bash -l {0}
 
       run: |
-        pytest -v --cov=molecool --cov-report=xml --color=yes molecool/tests/
+        cd docs
+        make html
+        cd ../
 
     - name: CodeCov
       uses: codecov/codecov-action@v1
